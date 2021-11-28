@@ -1,0 +1,13 @@
+h1 {
+    margin:auto; 
+    padding: 3px; 
+    width: 50%; 
+    text-align: 
+    center;
+}
+#window {
+    margin: auto;
+    width: 50%;
+    height: 400px; 
+    border: 3px solid black;
+}

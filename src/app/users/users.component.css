@@ -1,0 +1,30 @@
+#buttons {
+    background-color: white;
+    height: 50px;
+    text-align: center;
+    width: auto;
+    
+}
+#buttons li {
+    margin: 50px;
+    width: auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#buttons * {
+    display: inline;
+}
+
+
+
+ag-grid-angular {
+    width: 60%;
+    height: 500px;
+    align-items: center;
+    margin: auto;
+    position: center;
+}
+
+body {
+overflow-y: hidden;
+}

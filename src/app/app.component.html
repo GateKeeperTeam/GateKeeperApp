@@ -1,2 +1,20 @@
-<h1 style=" text-align:center; margin: auto; width: 50%; border: 3px ;padding: 10px;">Welcome to the {{title}} App!</h1>
-<app-home-screen></app-home-screen>
+
+
+
+<header>
+    <h1>{{title}}</h1>
+    <nav style=" text-align:center; margin: auto; width: 50%; border: 3px ;padding: 10px;">
+        <ul>
+            <li><a routerLink='/homeScreen'>Home    </a></li>
+            <li><a routerLink='/adminScreen'>Administration     </a></li>
+            <li><a routerLink='/badgeScreen'>Badge Activity     </a></li>
+            <li><a routerLink='/userScreen'>Users      </a></li>
+        </ul>
+     </nav>
+</header>
+<body><router-outlet></router-outlet></body>
+<footer>
+
+    
+</footer>
+
